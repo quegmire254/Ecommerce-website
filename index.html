@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Sticky Watches</title>
+    <link rel="stylesheet" href="stingo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="pictures/Gucci Luxe.png" type="image/x-icon">
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <header class="header">
+    <section class="container">
+        <section class="navbar">
+            <aside class="logo">
+                <img src="pictures/Gucci Luxe.png"  width="125px">
+            </aside>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                
+                    <li><a href="login.html">Account</a></li>
+                </ul>
+            </nav>
+            <img src="Image/shoppingbag.png" width="30px" height="30px">
+            <img src="Image/menuicon.png" class="me nu-icon" onclick="menutoggle()" >
+        </section>
+        <aside class="row">
+        <section class="col-2">
+            <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Your Wrist's Finest Hour Begins Here.</h1>
+            <h1>A watch is more than just a timepiece. It's a fashion accessory and a conversation starter.</h1>
+          
+            <a href="" class="btn">Explore Now &#8594;</a>
+
+        </section>
+        <div class="col-2">
+            <img src="pictures/Fossil Townsman Men's Automatic Watch.png" alt="" height="">
+
+        </div>
+
+        </aside>
+
+    </section>
+</header>
+
+
+<!------featured products----->
+<div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="pictures/bulova - Luxe Digital.png" width="740" height="380">
+            <h3>Bulova - Luxe Digital Watch</h3>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        
+        </div>
+        <div class="col-4">
+            <img src="pictures/Dior Dior Montaigne Diamond Watch,.png" width="740" height="380">
+           <h3>Dior Montaigne Diamond Watch</h3>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        
+        </div>
+        <div class="col-4">
+            <img src="pictures/Fossil Machine Men's Watch.png" width="740" height="380">
+            <h3>Fossil Machine Men's Watch</h3>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-staro"></i>
+            </div>
+        
+        
+        </div>
+        <div class="col-4">
+            <img src="pictures/Fossil Townsman Men's Automatic Watch.png" width="740" height="380">
+            <h3>Fossil Townsman Men's Automatic Watch</h3>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        
+        </div>
+
+</div>
+</div>
+
+
+
+<!--------footer---->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and IOS mobile phone</p>
+                <div class="app-logo">
+                    <img src="pictures/Dior Dior Montaigne Diamond Watch,.png" >
+                    <img src="pictures/Gucci Luxe.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="pictures/bulova - Luxe Digital.png" height="300" width="300">
+                <p>&copy; 2023 GameHub. All Rights Reserved.</p>
+            </div>
+        
+        <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+                <li>Coupons</li>
+                <li>Blog Post</li>
+                <li>Return Ploicy</li>
+            </ul>
+        </div>
+        <div class="footer-col-4">
+            <h3>Follow Us</h3>
+            <ul>
+                <li><i class="fa fa-facebook-official" ></i>Facebook</li>
+                <br>
+                <li><i class="fa fa-twitter-square"></i>Twitter</li>
+                <br>
+                <li><i class="fa fa-instagram" ></i>Instagram</li>
+                
+            </ul>
+        </div>
+    </div>
+        <hr>
+        <p class="copyright">&copy;Copyright 2023</p>
+    </div>
+</div>
+<!----js for toggle menu----->
+<script>
+    var MenuItems= document.getElementById("MenuItems");
+    MenuItems.style.maxHeight="0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight=="0px")
+        {
+            MenuItems.style.maxHeight="200px";
+        }
+        else
+        {
+            MenuItems.sty.maxHeight="0px";          
+        }
+    }
+</script>
+</body>
+</html>
